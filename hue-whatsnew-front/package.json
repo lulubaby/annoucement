@@ -1,0 +1,53 @@
+{
+  "name": "hue-whatsnew-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "@material-ui/icons": "^3.0.1",
+    "aws-sdk": "^2.370.0",
+    "axios": "^0.18.0",
+    "braft-editor": "^2.1.35",
+    "ejs": "^2.6.1",
+    "fetch-mock": "^7.2.7",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-loadable": "^5.5.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "serverless-aws-alias-hue": "^1.0.12",
+    "serverless-hooks-plugin": "^1.1.0",
+    "serverless-http": "^1.8.0",
+    "serverless-prune-plugin": "^1.3.2",
+    "yarn": "^1.12.3"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "css-loader": "^2.0.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "mockjs": "^1.0.1-beta3",
+    "nodemon": "^1.18.9",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
